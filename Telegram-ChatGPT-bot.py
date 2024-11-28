@@ -69,7 +69,7 @@ async def handle_start_command(event):
     """
 
     SENDER = event.sender_id
-    prompt = "Hello 🤖! I'm Telegram-ChatGPT-Bot, an AI-powered Telegram chatbot ready to assist you with any question you have. Simply ask me anything, and I'll provide you with an answer using advanced language models and machine learning algorithms."
+    prompt = "Hello 🤖! I'm Telegram-ChatGPT-Bot, an AI-powered Telegram chatbot ready to assist you with any question you have. Simply ask me anything, and I'll provide you with an answer using advanced language models and machine learning algorithms.\nMᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ <a href='https://t.me/Nishant_078'>ℕ𝕀𝕊ℍ𝔸ℕ𝕋</a>"
     try:
         # Greet the user
         await client.send_message(SENDER, prompt)
